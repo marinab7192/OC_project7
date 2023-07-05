@@ -23,3 +23,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "oc-project7-app"
           heroku_email: "marina.boucher7192@gmail.com"
+          appdir: "Flask"
