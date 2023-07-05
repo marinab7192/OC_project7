@@ -11,7 +11,7 @@ from sklearn.neighbors import NearestNeighbors
 app = Flask(__name__) 
 
 # CHARGEMENT DES DONNEES
-data = pd.read_csv('refs/heads/Flask/app_train_sampled.csv', nrows=10000)
+data = pd.read_csv('app_train_sampled.csv', nrows=10000)
 df = data.copy()
 df.rename(columns = {"SK_ID_CURR": "CUSTOMER ID"}, 
           inplace = True)
