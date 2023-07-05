@@ -30,4 +30,4 @@ jobs:
              pip install -r Flask/requirements.txt
 
       - name: Run Tests
-        run: python -m pytest
+        run: python -m pytest --import-mode=append Flask/tests/
