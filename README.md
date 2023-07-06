@@ -12,3 +12,7 @@ Le dashboard, développé à l'aide de la libraire Streamlit, est stocké dans l
 Chacun de ces dossiers possède un fichier requirements.txt permettant d'installer les librairies nécéssaires à l'exécution du dashboard et de l'API.
 
 Enfin, les deux applications (dashboard et API) sont deployées sur le cloud (Heroku) à l'aide d'un workflow de déploiement continu (Github Actions), intégrant les tests faits sur l'API.
+
+Les url des deux applications sont : 
+API : https://oc-project7-app-9c6f626ab48b.herokuapp.com/
+Dashboard : https://oc-project7-dashboard-866bb98ec7b5.herokuapp.com/
