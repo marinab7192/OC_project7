@@ -13,6 +13,6 @@ Chacun de ces dossiers possède un fichier requirements.txt permettant d'install
 
 Enfin, les deux applications (dashboard et API) sont deployées sur le cloud (Heroku) à l'aide d'un workflow de déploiement continu (Github Actions), intégrant les tests faits sur l'API.
 
-Les url des deux applications sont : 
-API : https://oc-project7-app-9c6f626ab48b.herokuapp.com/
+Les url des deux applications sont :  
+API : https://oc-project7-app-9c6f626ab48b.herokuapp.com/  
 Dashboard : https://oc-project7-dashboard-866bb98ec7b5.herokuapp.com/
