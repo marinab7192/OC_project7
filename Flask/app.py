@@ -110,7 +110,7 @@ df_scaled_target['TARGET'] = target
 @app.route("/data_for_visu")
 def data_for_visu():
     data_visu = df_scaled_target
-    data_visu = data_visu.sample(n = 5000)
+    data_visu = data_visu.sample(n = 2000)
     data_visu_json = json.loads(data_visu.to_json())
     return json.dumps(data_visu_json)
 
